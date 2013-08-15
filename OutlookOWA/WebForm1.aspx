@@ -1,0 +1,27 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="OutlookOWA.WebForm1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<noscript>
+    To use Outlook Web App, browser settings must allow scripts to run. For information
+    about how to allow scripts, consult the Help for your browser. If your browser doesn't
+    support scripts, you can download <a href="http://www.microsoft.com/windows/ie/downloads/default.mspx">s
+        Windows Internet Explorer</a> for access to Outlook Web App.</noscript>
+<head>
+    <title>Continue</title>
+    <script type='text/javascript'>
+        function OnBack() { } function DoSubmit() { var subt = false; if (!subt) { subt = true; document.logonForm.submit(); } }
+    </script>
+</head>
+<body onload='javascript:DoSubmit();'>
+    <form name='logonForm' id='logonForm' action='https://legacymail.taylorcorp.com/exchweb/bin/auth/owaauth.dll'
+    method='post' target='_top' />
+    <input type='hidden' name='destination' value='https://legacymail.taylorcorp.com/exchange' />
+    <input type='hidden' name='flags' value='0' />
+    <input type='hidden' name='forcedownlevel' value='0' />
+    <input type='hidden' name='trusted' value='0' />
+    <input type='hidden' name='username' value='corp\bkwang' />
+    <input type='hidden' name='password' value='R8ll#qqO2' />
+    <input type='hidden' name='isUtf8' value='1' />
+</body>
+</html>

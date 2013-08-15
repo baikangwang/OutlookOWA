@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookOWA", "OutlookOWA\OutlookOWA.csproj", "{C4454541-2076-4BE9-A303-0B37D08935EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4454541-2076-4BE9-A303-0B37D08935EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4454541-2076-4BE9-A303-0B37D08935EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4454541-2076-4BE9-A303-0B37D08935EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4454541-2076-4BE9-A303-0B37D08935EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
